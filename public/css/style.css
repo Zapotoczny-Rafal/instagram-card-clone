@@ -1,0 +1,238 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Ubuntu", sans-serif;
+}
+
+body {
+  padding: 10px 0 10px 0;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  min-height: 100vh;
+  background-color: #f2f2f2;
+}
+
+a {
+  font-size: 0.875rem;
+  color: #282828;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+button {
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.card {
+  flex-direction: column;
+  display: flex;
+  position: relative;
+  width: 620px;
+  background: #fff;
+  border: 1px solid #b3b3b3;
+  border-radius: 4px;
+}
+
+header, div, section, form {
+  display: flex;
+}
+
+header {
+  width: 100%;
+  height: 60px;
+  padding: 5px;
+}
+
+.avatar {
+  width: 45px;
+  height: 45px;
+  align-items: center;
+  justify-content: center;
+  margin-right: 8px;
+}
+
+.profile {
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+}
+
+div.author {
+  align-items: center;
+  height: 45px;
+}
+
+.menu {
+  height: 60px;
+  position: absolute;
+  right: 10px;
+}
+
+.btn {
+  width: 40px;
+  height: 40px;
+  font-size: 1.375rem;
+}
+
+.content {
+  width: 100%;
+  justify-content: center;
+}
+
+.post {
+  width: 618px;
+}
+
+.actions {
+  padding: 0 15px;
+}
+
+.action {
+  width: 40px;
+  height: 40px;
+  font-size: 0.875rem;
+}
+
+button.action.save {
+  position: relative;
+  width: 450px;
+  left: 430px;
+}
+
+.icon {
+  width: 28px;
+  height: 28px;
+}
+
+.likes {
+  padding: 0 15px;
+}
+
+.hovered:hover {
+  opacity: 0.75;
+}
+
+.count {
+  font-size: 0.875rem;
+  margin-bottom: 6px;
+}
+
+.comments {
+  flex-direction: column;
+}
+
+.author-section {
+  padding: 0 15px;
+  margin-bottom: 5px;
+  display: inline-block;
+}
+
+.tag {
+  font-weight: 400;
+  color: #003870;
+}
+
+.tag:hover {
+  text-decoration: none;
+}
+
+.comments-section {
+  padding: 0 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+.user {
+  margin-top: 4px;
+}
+
+.users-comments {
+  font-size: 0.875rem;
+  display: inline-flex;
+}
+
+.view {
+  color: #b3b3b3;
+}
+
+.data {
+  color: #737373;
+  margin: 5px 0 5px;
+  padding: 0 15px;
+  font-size: 0.838rem;
+  font-weight: 600;
+  letter-spacing: 0.3px;
+}
+
+.title {
+  color: #8c8c8c;
+}
+
+.view-comments, .title, .tags, span.author {
+  margin-top: 4px;
+}
+
+.view:hover {
+  text-decoration: none;
+}
+
+.typing {
+  justify-content: center;
+  min-height: 56px;
+  padding: 0 15px;
+  margin-top: 4px;
+  border-top: 1px solid #b3b3b3;
+}
+
+form.comment {
+  flex-direction: row;
+  height: 40px;
+}
+
+.emoji {
+  width: 28px;
+  height: 56px;
+  margin-right: 10px;
+}
+
+.textarea {
+  height: 18px;
+  min-width: 500px;
+  max-height: 80px;
+  line-height: 18px;
+  margin-top: 18px;
+  font-size: 0.875rem;
+  border: none;
+  resize: none;
+}
+
+.textarea:focus-visible {
+  outline: none;
+}
+
+.publish {
+  justify-content: center;
+  margin-top: 18px;
+  color: #00aaff;
+  font-size: 0.875rem;
+  font-weight: 600;
+}
+
+.publish[disabled] {
+  pointer-events: none;
+}
+
+.publish[disabled]:not(.disabled) {
+  opacity: 0.35;
+}
+
+/*# sourceMappingURL=style.css.map */

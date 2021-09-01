@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="public/css/style.css">
+  <title>Instagram Card Clone</title>
+</head>
+<body>
+  <article class="card">
+    <header>
+      <div class="avatar">
+        <a href="/Zapotoczny-Rafal">
+        <img class="profile" src="public/images/profile.png" alt="profile image">
+        </a>
+      </div>
+        <div class="author">
+          <a href="/Zapotoczny-Rafal">Zapotoczny-Rafal</a>
+        </div>
+        <div class="menu">
+          <button class="btn">...</button>
+        </div>
+    </header>
+    <div class="content">
+      <img src="public/images/post.png" alt="post image" class="post">
+    </div>
+      <section class="actions">
+        <span class="like">
+          <button class="action heart">
+            <div>
+              <img class="icon heart-red" src="public/images/heart.png">
+            </div>
+          </button>
+        </span>
+        <span class="comment">
+          <button class="action czat">
+            <div>
+              <img class="icon" src="public/images/comment.png">
+            </div>
+          </button>
+        </span>
+        <span class="share">
+          <button class="action share">
+            <div>
+              <img class="icon" src="public/images/share.png">
+            </div>
+          </button>
+        </span>
+        <span class="save">
+          <button class="action save">
+            <div class="last">
+              <img class="icon bookmark hovered" src="public/images/bookmark.png">
+            </div>
+          </button>
+        </span>
+      </section>
+      <section class="likes">
+        <span class="count">They like it <a href="/2/user2" class="user">User1</a> and <a href="/2/user2" class="user">User2</a></span>
+      </section>
+      <div class="comments">
+        <div class="author-section">
+          <span class="author"><a href="/user1" class="user">Zapotoczny-Rafal</a></span>
+          <span class="title">This is a simple clone of Instagram cards.</span>
+          <span class="tags">
+            <a href="/cards" class="tag">#cards</a>
+            <a href="/html" class="tag">#html</a>
+            <a href="/css" class="tag">#css</a>
+            <a href="/javascript" class="tag">#javascript</a>
+          </span>
+        </div>
+        <div class="comments-section">
+          <div class="view-comments">
+            <a class="view" href="post/1">View all 20 comments</a>
+          </div>
+          <div class="comment">
+            <span class="user">
+              <a href="/1/user1" class="user">User1</a>
+              <div class="users-comments">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</div>
+            </span>
+            <span class="content-comment"></span>
+          </div>
+          <div class="comment">
+            <span class="user">
+              <a href="/2/user2" class="user">User2</a>
+              <div class="users-comments">Lorem, ipsum dolor sit amet.</div>
+            </span>
+            <span class="content-comment"></span>
+          </div>
+        </div>
+      </div>
+      <div class="data">1 day ago</div>
+      <section class="typing">
+        <form class="comment" method="POST">
+          <button class="emoji">
+              <svg xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512">
+                <circle cx="184" cy="232" r="24"/>
+                <path d="M256.05 384c-45.42 0-83.62-29.53-95.71-69.83a8 8 0 017.82-10.17h175.69a8 8 0 017.82 10.17c-11.99 40.3-50.2 69.83-95.62 69.83z"/>
+                <circle cx="328" cy="232" r="24"/>
+                <circle cx="256" cy="256" r="208" fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="32"/></svg>
+          </button>
+          <textarea aria-label="Add comment..." placeholder="Add comment..." class="textarea"></textarea>
+          <button type="submit" class="publish" disabled>Publish</button>
+        </form>
+      </section>
+  </article>
+  <script src="public/js/app.js"></script>
+</body>
+</html>
